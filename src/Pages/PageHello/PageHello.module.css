@@ -1,0 +1,254 @@
+.pageHello {
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1157px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pageHello__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 304px;
+    z-index: 10;
+}
+
+.pageHello__textSuptext{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #E5E9F0;
+}
+
+.pageHello__h1{
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 81px;
+    color: #E5E9F0;
+}
+
+.pageHello__textSubtext{
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 42px;
+    color: #4D5BCE;
+    /* -webkit-text-stroke: 1px #000000; */
+    text-shadow: 0px 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.pageHello__text_bottom p{
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 21px;
+    color: #607B96;
+    margin-bottom: 9.6px;
+}
+
+.pageHello__text_bottom .mobile{
+    display: none;
+}
+
+.pageHello__a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E99287;
+    text-decoration: none;
+}
+
+.pageHello__game{
+    position: relative;
+    z-index: 10;
+    max-height: 475px;
+    height: 100%;
+    max-width: 510px;
+    width: 100%;
+}
+
+.game__wrapper{
+    position: absolute;
+    z-index: 10;
+    max-width: 510px;
+    width: 100%;
+    max-height: 475px;
+    height: 100%;
+    /* background: linear-gradient(150.26deg, rgba(23, 85, 83, 0.7) 1.7%, rgba(67, 217, 173, 0.091) 81.82%); */
+    /* border: 1px solid #0C1616;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3); */
+    /* backdrop-filter: blur(32px); */
+    border-radius: 8px;
+    padding: 35px 35px 35px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game__wrapper img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px !important;
+    /* box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3); */
+   
+}
+
+.blurGreen{
+    z-index: 0;
+    position: absolute;
+    width: 454px;
+    height: 492px;
+    top: 130px;
+    right: 250px;
+    background: #43D9AD;
+    opacity: 0.4;
+    filter: blur(87px);
+    transform: rotate(-94.3deg);
+}
+.blurBlue{
+    position: absolute;
+    width: 454px;
+    height: 492px;
+    top: 250px;
+    right: 170px;
+    scale: 0.8;
+    background: #4D5BCE;
+    opacity: 0.4;
+    filter: blur(87px);
+    transform: rotate(13.51deg);
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+.green{
+    color: #43D9AD;
+}
+
+.blue{
+    color: #4D5BCE;
+}
+
+.snake{
+    /* width: '100%';
+    max-width: '238px'; 
+    height: '100%'; */
+    border-radius: 15px;
+}
+
+.game__message{
+    background-color: rgba(1, 22, 39, 0.84);
+    position: absolute;
+    bottom: 93px;
+    left: 50%;
+	transform: translateX(-50%);
+    text-transform: uppercase;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#43D9AD;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* PageHello.module.css */
+
+/* Your other styles */
+
+.game__wrapper {
+    position: relative;
+    /* Add this line to ensure proper positioning of images */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Default style for images */
+.game__wrapper img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Active image will have full opacity */
+.game__wrapper img.active {
+    opacity: 1;
+}
+
+/* Inactive images will have zero opacity */
+.game__wrapper img.inactive {
+    opacity: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .pageHello__game{
+        display: none;
+    }
+    .blurBlue{
+        top: 200px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .pageHello{
+        align-items: flex-start;
+    }
+
+    .pageHello__text{
+        height: 460px;
+    }
+
+    .pageHello__textSuptext{
+        margin-top: 69px;
+        margin-bottom: 10px;
+    }
+
+    .pageHello__h1{
+        line-height: 100%;
+        margin-bottom: 5px;
+    }
+
+    .pageHello__textSubtext{
+        font-size: 20px;
+        line-height: 26px;
+        color: #43D9AD;
+    }
+
+    .pageHello__text_bottom .desktop{
+        display: none;
+    }
+    
+    .pageHello__text_bottom .mobile{
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .pageHello__text_bottom p, .pageHello__a{
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .blurGreen{
+        scale: 0.5;
+        right: -10px;
+        top: 80px;
+    }
+    .blurBlue{
+        scale: 0.5;
+        right: -85px;
+        top: 170px;
+    }
+}
