@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9122caba.css",
+    "main.js": "/Portfolio/static/js/main.b4a34f2a.js",
+    "static/media/054_BYMishaisakadze_Untitled Session7309890.jpg": "/Portfolio/static/media/054_BYMishaisakadze_Untitled Session7309890.c1b463136f7566b761a3.jpg",
+    "static/media/043_BYMishaisakadze_Untitled Session7300030.jpg": "/Portfolio/static/media/043_BYMishaisakadze_Untitled Session7300030.dba638eb3611d658da52.jpg",
+    "static/media/045_BYMishaisakadze_Untitled Session7300045.jpg": "/Portfolio/static/media/045_BYMishaisakadze_Untitled Session7300045.f6c9acc8f0661a5c404d.jpg",
+    "static/media/004_BYMishaisakadze_US7309921.jpg": "/Portfolio/static/media/004_BYMishaisakadze_US7309921.7a184ddd96014dc12d0b.jpg",
+    "static/media/React.svg": "/Portfolio/static/media/React.36bb19c695639013bff20bed7f9466ba.svg",
+    "static/media/git_logo.svg": "/Portfolio/static/media/git_logo.410b25a097bad8a707b6c5c0203a4f4f.svg",
+    "static/media/linkedin-svgrepo-com.svg": "/Portfolio/static/media/linkedin-svgrepo-com.0782c947e1c3fb34b57e265e4b0d0c3f.svg",
+    "static/media/Gatsby.svg": "/Portfolio/static/media/Gatsby.a1af3aa23722917da932140ae3935a17.svg",
+    "static/media/JS.svg": "/Portfolio/static/media/JS.be09b7882855bc3bb2ab0f17c30ab83b.svg",
+    "static/media/Vector (5).svg": "/Portfolio/static/media/Vector (5).53175ffe151ca5ade9aa0f09b38da67f.svg",
+    "static/media/HTML.svg": "/Portfolio/static/media/HTML.27f68dd89cc75d863e2d1306e94345f7.svg",
+    "static/media/hobby.svg": "/Portfolio/static/media/hobby.7bad772f5905e5962cc44090cf928851.svg",
+    "static/media/profesional.svg": "/Portfolio/static/media/profesional.b8a8118c55dd226f41d0fc3d05ff6455.svg",
+    "static/media/int.svg": "/Portfolio/static/media/int.ad830fa95aefa453ea2641a07d32fc8b.svg",
+    "static/media/bio.svg": "/Portfolio/static/media/bio.44760fb50bbb4dfae3f7a924b1522a8c.svg",
+    "static/media/edu.svg": "/Portfolio/static/media/edu.577ab0d3c5bd618f4e280fed797f5c57.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/Vue.svg": "/Portfolio/static/media/Vue.943625f00ada20baa779a9f3154fa819.svg",
+    "static/media/Angular.svg": "/Portfolio/static/media/Angular.1751199d04c3c1a6900de712c45fd681.svg",
+    "static/media/personal.svg": "/Portfolio/static/media/personal.85e0a2e56575445fe1204d1c2ac7b065.svg",
+    "static/media/CSS.svg": "/Portfolio/static/media/CSS.d8a0b02aec8c8a70677e8b69e8a4767b.svg",
+    "static/media/Flutter.svg": "/Portfolio/static/media/Flutter.f1303ed2e285795ced832997ff6a73bf.svg",
+    "static/media/close.svg": "/Portfolio/static/media/close.f297b30998d8efbd4ee526aae94b2761.svg",
+    "static/media/cross.svg": "/Portfolio/static/media/cross.f297b30998d8efbd4ee526aae94b2761.svg",
+    "static/media/facebook_logo.svg": "/Portfolio/static/media/facebook_logo.184213347eee1ce05002f247ad304248.svg",
+    "static/media/arrow.svg": "/Portfolio/static/media/arrow.cb0d1853457d3766db55.svg",
+    "static/media/Triangle.svg": "/Portfolio/static/media/Triangle.72bfd5f72ef577c99e74.svg",
+    "main.9122caba.css.map": "/Portfolio/static/css/main.9122caba.css.map",
+    "main.b4a34f2a.js.map": "/Portfolio/static/js/main.b4a34f2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9122caba.css",
+    "static/js/main.b4a34f2a.js"
+  ]
+}
