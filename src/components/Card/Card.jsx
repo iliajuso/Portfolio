@@ -10,9 +10,10 @@ export const Card = ({ name, imageUrl, link, hasPage, linkPage, isVisible, index
     //проекты Ильи
     const iconsByProject = {
       'denis-novik': ['html', 'css'],
-      'dodo-pizza': ['html', 'css'],
+      'Dodo-Pizza': ['html', 'css'],
       'Emoji': ['js', 'css'],
       'emoji-react-app': ['react'],
+      'Portfolio': ['react'],
       'harry-potter-js': ['js'],
       'maket': ['html', 'css'],
       'order-card': ['html', 'css'],

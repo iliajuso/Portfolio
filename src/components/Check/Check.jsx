@@ -4,14 +4,14 @@ import { IconBW } from '../IconBW/IconBW';
 
 //Проекты Ильи
 const icons = [
-  { key: 'react', alt: 'React', active: false, text: 'React', projects: ['emoji-react-app', 'react-first'] },
+  { key: 'react', alt: 'React', active: false, text: 'React', projects: ['emoji-react-app', 'react-first','Portfolio'] },
   { key: 'html', alt: 'HTML', active: false, text: 'HTML', projects: ['Dodo-Pizza', 'maket', 'order-card', 'restauraunt', 'vizit-cart'] },
   { key: 'css', alt: 'CSS', active: false, text: 'CSS', projects: ['Dodo-Pizza', 'maket', 'order-card', 'restauraunt', 'vizit-cart', 'Emoji'] },
   { key: 'js', alt: 'Javascript', active: false, text: 'Javascript', projects: ['Emoji', 'harry-potter-js', 'todo-list-js', 'weather-js'] },
-  { key: 'vue', alt: 'Vue', active: false, text: 'Vue' },
-  { key: 'angular', alt: 'Angular', active: false, text: 'Angular' },
-  { key: 'gatsby', alt: 'Gatsby', active: false, text: 'Gatsby' },
-  { key: 'flutter', alt: 'Flutter', active: false, text: 'Flutter' },
+  // { key: 'vue', alt: 'Vue', active: false, text: 'Vue' },
+  // { key: 'angular', alt: 'Angular', active: false, text: 'Angular' },
+  // { key: 'gatsby', alt: 'Gatsby', active: false, text: 'Gatsby' },
+  // { key: 'flutter', alt: 'Flutter', active: false, text: 'Flutter' },
 ];
 
 
