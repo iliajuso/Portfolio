@@ -60,7 +60,8 @@ export const Projects = () => {
                     key = { project.id }
                     name={project.name}
                     // imageUrl={project.owner.avatar_url}
-                    imageUrl={project.html_url+'/blob/main/preview/preview.jpg?raw=true'}
+                    // imageUrl={project.html_url+'/blob/main/preview/preview.jpg?raw=true'}
+                imageUrl={`${project.html_url}/blob/main/preview/preview.jpg?raw=true`}
                     link={project.html_url}
                     hasPage = {project.has_pages}
                     linkPage={'https://'+login+'.github.io/'+project.name}
